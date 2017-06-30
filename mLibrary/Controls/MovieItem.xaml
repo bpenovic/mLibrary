@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="mLibrary.Controls.MovieItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:mLibrary.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="230"  BorderBrush="#00596173" BorderThickness="2" Foreground="#FF596173" Cursor="Hand">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <UserControl.Effect>
+        <DropShadowEffect BlurRadius="10" Color="#dddddd" ShadowDepth="3"/>
+    </UserControl.Effect>
+
+    <Grid Background="Transparent" Height="200" Visibility="{Binding IsVisible}">
+        <Image Source="{Binding Cover}" Margin="0,-107,0,0"/>
+        <TextBlock x:Name="lblTitle" Padding="20,0,0,20" Width="230" Text="{Binding Title}" Margin="0,120,0,0" FontSize="17" FontFamily="Segoe UI Semibold" Background="Transparent" Foreground="#ffffff" TextWrapping="Wrap"/>
+        <Button x:Name="btnMoreInfo" Height="180" Width="230" Background="Transparent" Foreground="Transparent" BorderBrush="Transparent" Tag="{Binding Id}" Click="btnClickMoreInfo" Opacity="0"/>
+    </Grid>
+</UserControl>

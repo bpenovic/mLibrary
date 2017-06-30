@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="mLibrary.Pages.SearchForMovie"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:controls="clr-namespace:mLibrary.Controls"
+             xmlns:local="clr-namespace:mLibrary.Pages"
+             mc:Ignorable="d" 
+             Height="500" Width="1024">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <UserControl.Background>
+        <ImageBrush ImageSource="../Resources/Images/bg_arrow.png" />
+    </UserControl.Background>
+
+
+    <Grid Background="#FF596173">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!-- Search -->
+        <Label x:Name="lblSearch" Content="Search for movie..." Foreground="#eee" FontSize="21" FontFamily="Segoe UI Semilight" Height="50" Width="200" Margin="0,0,550,300"/>
+        <TextBox x:Name="txbMovieName" Controls:TextBoxHelper.Watermark="Name of movie" Padding="0,5,0,0" Height="40" Width="350" Controls:TextBoxHelper.ClearTextButton="True" Background="Transparent" BorderBrush="#eee" BorderThickness="0,0,0,1" Margin="0,0,0,330" FontSize="19" Foreground="#eee"/>
+        <Button x:Name="btnSearch" Content="Search" Height="40" Width="150" Margin="570,-30,0,301" Foreground="#eee" Background="#FF596174" FontFamily="Segoe UI Semilight" FontSize="18" BorderBrush="#eee" BorderThickness="2" Controls:ControlsHelper.ContentCharacterCasing="Normal" Click="btnClickSearch"></Button>
+        <Label x:Name="lblList" Content="List of movies..." Foreground="#eee" FontSize="22" FontFamily="Segoe UI Semilight" Height="50" Width="900" Margin="0,150,40,300" BorderBrush="#eee" BorderThickness="0,0,0,1"/>
+        
+        <!--<Controls:ProgressRing IsActive="{Binding IsActive}" Foreground="#FF596173" Height="100" Width="80" Margin="470,0,0,0"/> -->
+        
+        <!-- Movies -->
+        <ScrollViewer x:Name="viewer" Grid.Row="0" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Visible" Padding="30,0,30,0" Height="250" Width="1024" Margin="0,200,0,0" BorderBrush="Transparent" Loaded="ScrollViewer_Loaded" BorderThickness="0,2,0,0" Cursor="ScrollWE">
+            <StackPanel x:Name="MovieItemContainer" Orientation="Horizontal" Height="230" Width="{Binding ActualWidth, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Window}}">
+
+                <ListView Height="250" MinWidth="1024" Background="Transparent" ItemsSource="{Binding MovieInfoList, RelativeSource={RelativeSource AncestorType={x:Type UserControl}} }" BorderBrush="Transparent">
+                    
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel Orientation="Horizontal" Background="Transparent" />
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <controls:MovieItem Height="230" Width="230" Padding="5,0,5,0"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                    <ListView.ItemContainerStyle>
+                        <Style>
+                            <Style.Triggers>
+                                <Trigger Property="Control.IsMouseOver" Value="True">
+                                    <Setter Property="Control.Background" Value="Transparent" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+
+                </ListView>
+            </StackPanel>
+        </ScrollViewer>
+        
+    </Grid>
+</UserControl>

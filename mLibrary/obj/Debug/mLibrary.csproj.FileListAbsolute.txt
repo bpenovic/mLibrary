@@ -1,0 +1,68 @@
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\mLibrary.exe.config
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary.csprojResolveAssemblyReference.cache
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Controls\MovieItem.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\MainWindow.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\App.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary_MarkupCompile.cache
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary_MarkupCompile.lref
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\mLibrary.exe
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\mLibrary.pdb
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\Json.NET.Web.dll
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\MahApps.Metro.dll
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\Newtonsoft.Json.dll
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\System.Windows.Interactivity.dll
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\Newtonsoft.Json.xml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Controls\MovieItem.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\MainWindow.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary.g.resources
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary.Properties.Resources.resources
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary.csproj.GenerateResource.Cache
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary.exe
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\mLibrary.pdb
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\MahApps.Metro.pdb
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\bin\Debug\MahApps.Metro.xml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Resources\Icons.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Resources\IconsNonShared.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\App.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\MyFavorites.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\Registration.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\SignIn.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\MyFavorites.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\Registration.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\SignIn.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\SearchForMovie.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\SearchForMovie.baml
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\SingleMovie.g.cs
+e:\documents\visual studio 2015\Projects\mLibrary\mLibrary\obj\Debug\Pages\SingleMovie.baml
+E:\Desktop\mLibrary\mLibrary\bin\Debug\mLibrary.exe.config
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary.exe
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary.pdb
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary.csprojResolveAssemblyReference.cache
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Resources\Icons.baml
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Resources\IconsNonShared.baml
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Controls\MovieItem.g.cs
+E:\Desktop\mLibrary\mLibrary\obj\Debug\MainWindow.g.cs
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Pages\SearchForMovie.g.cs
+E:\Desktop\mLibrary\mLibrary\obj\Debug\App.g.cs
+E:\Desktop\mLibrary\mLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary_MarkupCompile.cache
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary_MarkupCompile.lref
+E:\Desktop\mLibrary\mLibrary\bin\Debug\mLibrary.exe
+E:\Desktop\mLibrary\mLibrary\bin\Debug\mLibrary.pdb
+E:\Desktop\mLibrary\mLibrary\bin\Debug\Json.NET.Web.dll
+E:\Desktop\mLibrary\mLibrary\bin\Debug\MahApps.Metro.dll
+E:\Desktop\mLibrary\mLibrary\bin\Debug\Newtonsoft.Json.dll
+E:\Desktop\mLibrary\mLibrary\bin\Debug\System.Windows.Interactivity.dll
+E:\Desktop\mLibrary\mLibrary\bin\Debug\MahApps.Metro.pdb
+E:\Desktop\mLibrary\mLibrary\bin\Debug\MahApps.Metro.xml
+E:\Desktop\mLibrary\mLibrary\bin\Debug\Newtonsoft.Json.xml
+E:\Desktop\mLibrary\mLibrary\obj\Debug\App.baml
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Controls\MovieItem.baml
+E:\Desktop\mLibrary\mLibrary\obj\Debug\MainWindow.baml
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Pages\SearchForMovie.baml
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary.g.resources
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary.Properties.Resources.resources
+E:\Desktop\mLibrary\mLibrary\obj\Debug\mLibrary.csproj.GenerateResource.Cache
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Pages\MovieInfo.g.cs
+E:\Desktop\mLibrary\mLibrary\obj\Debug\Pages\MovieInfo.baml
